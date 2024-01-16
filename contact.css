@@ -1,0 +1,46 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f0f5ff; /* Lichtblauwe achtergrondkleur */
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+label {
+  font-weight: bold;
+  color: #1a4275; /* Donkerblauwe tekstkleur */
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #a9c8e8; /* Middelblauwe randkleur */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  padding: 10px;
+  background-color: #1a4275; /* Donkerblauwe knopkleur */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #002451; /* Nog donkerder blauw bij hover */
+}

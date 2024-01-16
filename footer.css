@@ -1,0 +1,77 @@
+* {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background: #50B2C0;
+    color: #ae2222;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-section h2 {
+    color: #000000;
+  }
+  
+  .footer-section p {
+    color: #101010;
+  }
+  
+  .footer-section a {
+    display: block;
+    color: #0c0c0c;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  
+  .footer-section.image {
+    text-align: center; 
+  }
+  
+  .footer-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    color: #000000;
+  }
+  h2{
+    color: #50B2C0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% van de viewporthoogte */
+    margin: 0;
+  }
+  
+  .container {
+    flex: 1; /* Laat de container groeien om de beschikbare ruimte in te nemen */
+    /* Voeg hier andere stijlen toe voor de hoofdinhoud van je pagina */
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    /* Voeg hier andere stijlen toe voor je footer */
+  }
+  
